@@ -1,0 +1,101 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1093393378112107975
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1093393378112107970}
+  - component: {fileID: 1093393378112107971}
+  - component: {fileID: 1093393378112107968}
+  - component: {fileID: 1902658715}
+  m_Layer: 0
+  m_Name: GameManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1093393378112107970
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1093393378112107975}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -13.070958, y: -6.5374775, z: -9.300958}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1093393378112107971
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1093393378112107975}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e03bd43027edf2e439d0fee09c9474f9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  amPrefab: {fileID: 8633065802082304808, guid: 8436b9fe47ea8134eb6331ec02efaf52,
+    type: 3}
+  audioMan: {fileID: 0}
+  canvasMan: {fileID: 0}
+  buildingList:
+  - {fileID: 11400000, guid: 29c87152fa69de347a2f5758ec46c534, type: 2}
+  - {fileID: 11400000, guid: 524fe0373db17584b8ef14ff6a8d874d, type: 2}
+  - {fileID: 11400000, guid: f5fd1db3b51f87b4691e81b8cc56ddeb, type: 2}
+  bp: {fileID: 0}
+  activeSceneIndex: 0
+--- !u!114 &1093393378112107968
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1093393378112107975}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e594982be29d7e2428f73401082ca265, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  placementSFX: {fileID: 8300000, guid: ee22308b92d42994d93a7b5bb86930d4, type: 3}
+  cantPlaceSFX: {fileID: 8300000, guid: 6e5513b651f153e40b5c7835db84fbc8, type: 3}
+  sfxVolume: 0.3
+  placementPS: {fileID: 4033882199076730478, guid: e2c8478a8b02dae4fb3dd6ee6e91a972,
+    type: 3}
+  objectOnCursor: {fileID: 0}
+  currentlyChosenBuilding: {fileID: 0}
+  buildingPlacementMask:
+    serializedVersion: 2
+    m_Bits: 8
+--- !u!114 &1902658715
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1093393378112107975}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 82110c4e31d0ee741b4d00fe7b5253ed, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  creditsWidget: {fileID: 7599552203381981105, guid: e222b882502c44e43a111fab3722e6cc,
+    type: 3}
+  buildingButtonWidget: {fileID: 4704216767783579677, guid: eac6aa0c6107cb84d9999c570cd7ea74,
+    type: 3}
+  activeCanvas: {fileID: 0}
+  fadeOut: {fileID: 7400000, guid: 5a7cf0ddfec25934f9bb14173ea22343, type: 2}
+  m_anim: {fileID: 0}
+  startingCoinCount: 250000
+  currentCoinCount: 0
