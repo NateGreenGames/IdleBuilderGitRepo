@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bdf0d8940f01161469f76175eae9f719, type: 3}
+  m_Name: House
+  m_EditorClassIdentifier: 
+  buildingName: House
+  buildingCost: 10
+  buildingGenerationPerSecond: 1
+  buildingSprite: {fileID: 21300000, guid: 4cf5fb61276feff46a2d806e26bf3c6e, type: 3}
+  previewPrefab: {fileID: 2990775382082477889, guid: 0c21408bc2e53a34ba0309edda4725ff,
+    type: 3}
+  buildingPrefab: {fileID: 6803274021291042029, guid: 34dc0e7f3b090ea408f72489a2ec76d6,
+    type: 3}
+  cantPlacePrefab: {fileID: 3385457246550002616, guid: edb60ba316cbd3345a822ca26ce9ef02,
+    type: 3}
+  placementOffset: {x: 0, y: 0, z: 0}
+  modelVolume: {x: 0.5, y: 0.5, z: 0.5}
